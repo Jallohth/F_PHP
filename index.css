@@ -1,0 +1,434 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    font-size:140%;
+    margin: 0px;
+    padding: 0px;
+}
+header {
+    height: 80px;
+    width: 100%;
+}
+.logo h1 {
+    font: 2.1em Brush Script MT;
+    text-align: left;
+}
+.logo {
+    display: flex;
+    text-align: center;
+}
+.logo h1{
+    margin-left: 20px;
+    margin-top: 5px;
+    margin-right: 250px;
+}
+.logo a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 30px 1px;
+    color: black;
+}
+.logo .ul-li {
+    margin-left: 50%;
+    width: 100%;
+}
+
+.logo li {
+    list-style-type: none;
+    float: right;
+}
+
+nav {
+    width: 100%;
+    background-color: #424558;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+}
+
+nav li {
+    list-style-type: none;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 20px 15px;
+    color: #fff;
+}
+
+.menu:hover {
+    border-top: 5px solid #eEEE98;
+    background-color: #ab9e9e;
+    color: black;
+}
+
+nav li:hover a {
+    padding: 15px 15px 20px 15px;
+}
+
+.nav-header {
+    display: table;
+    margin: 0 auto;
+}
+
+/*  */
+.subheading{
+    font-family:'Times New Roman';
+}
+header.masthead {
+    position: relative;
+    margin-bottom: 3rem;
+    padding-top: calc(8rem + 57px);
+    padding-bottom: 8rem;
+    background: no-repeat center center;
+    background-color: #6c757d;
+    background-size: cover;
+    background-attachment: scroll;
+}
+header.masthead:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #212529;
+    opacity: 0.5;
+}
+header.masthead .page-heading,
+header.masthead .post-heading,
+header.masthead .site-heading {
+    color: #fff;
+}
+header.masthead .page-heading,
+header.masthead .site-heading {
+    text-align: center;
+}
+header.masthead .page-heading h1, header.masthead .page-heading .h1,
+header.masthead .site-heading h1,
+header.masthead .site-heading .h1 {
+    font-size: 3rem;
+}
+header.masthead .page-heading .subheading,
+header.masthead .site-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 300;
+    line-height: 1.1;
+    display: block;
+    margin-top: 0.625rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+    font-size: 2.25rem;
+}
+header.masthead .post-heading .meta,
+  header.masthead .post-heading .subheading {
+    line-height: 1.1;
+    display: block;
+}
+header.masthead .post-heading .subheading {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0.75rem 0 2rem;
+    font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta {
+    font-size: 1.25rem;
+    font-weight: 300;
+    font-style: italic;
+    font-family: "Lora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+header.masthead .post-heading .meta a {
+    color: #fff;
+}
+@media (min-width: 992px) {
+    header.masthead {
+      padding-top: 12.5rem;
+      padding-bottom: 12.5rem;
+    }
+    header.masthead .page-heading h1, header.masthead .page-heading .h1,
+    header.masthead .site-heading h1,
+    header.masthead .site-heading .h1 {
+      font-size: 5rem;
+    }
+    header.masthead .post-heading h1, header.masthead .post-heading .h1 {
+      font-size: 3.5rem;
+    }
+    header.masthead .post-heading .subheading {
+      font-size: 1.875rem;
+    }
+}
+  
+
+/*  */
+main .slider {
+    background-color: #3a3a3a;
+    width: 100%;
+    height: 650px;
+}
+
+/*  */
+footer {
+    padding-top: 3Opx;
+    border-top: 2px solid #AAA;
+}
+.foot {
+    display: inline-block;
+    background-color: #424558;
+    width: 100%;
+    height: 250px;
+    display: inline-block;
+}
+.my-foother {
+    background-color: #424558;
+    width: 100%;
+    display: inline-block;
+}
+.partenaires,
+.liens,
+.contact {
+    display: table;
+    margin: 0 auto;
+}
+.icon >a>i{
+    color: #fff;
+    width: 100%;
+    text-align: center;
+}
+.partenaires li {
+    padding: 3px 10px;
+    padding-bottom: 5px;
+    border-left: #fff solid;
+}
+
+.contact p {
+    padding: 3px 10px;
+    padding-bottom: 1px;
+    border-left: #fff solid;
+    color: white;
+}
+footer li {
+    list-style-type: none;
+}
+footer li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1em;
+}
+footer a:hover{
+    color: black;
+}
+footer .my-foother {
+    display: inline-flex;
+    gap: 70px;
+}
+.foot>p {
+    padding-top: 5px;
+    text-align: center;
+    background-color: #ffffff;
+    height: 30px;
+    color: black;
+}
+.foot h3{
+    font: 'Courier New', Courier, monospace;size :140%; color : black;
+    margin-left: 20px;
+    font-weight: solid;
+}
+/*  */
+h1{
+    text-align: center;
+    font: 2.5em Brush Script MT;
+    justify-content: center;
+}
+section{
+    width: 100%;
+    min-height: 250px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+}
+.presentation .sec .right {
+    padding-left: 10%;
+    justify-content: center;
+}
+.presentation p:first-letter{
+    font: 50px bold;
+    justify-content: center;
+}
+.presentation img{
+    border-radius: 1000px;
+    width: 250px;
+    height: 250px;
+}
+.presentation img:hover {
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
+.lefts{
+    display: flex ;
+    animation-duration: 10s ;
+    animation-iteration-count: infinite;
+    animation-name: thd;
+}
+.caroussel{
+    overflow: hidden;
+    box-shadow:3px 5px 6px 2px rgb(184, 184, 191);
+    border-radius: 1000px;
+    width: 250px;
+    height: 250px;
+    float: left;
+    margin: 0px -80px;
+    margin-left: 10px;
+}
+@keyframes  thd{
+    0%{
+        transform:translate(0px)
+    }
+    25%{
+        transform:translate(-60px)
+    }
+    50%{
+        transform:translate(-408px)
+    }
+    75%{
+        transform:translate(-756px)
+    }
+    100%{
+        transform:translate(-1104px)
+    }
+    125%{
+        transform:translate3d(0px);
+    }
+}
+.presentation, .competences, .recomandations, .parcours{
+    border-top: 5px solid #eEEE98;
+    background-color: #fcfcfc;
+    color: black;
+}
+.sec{
+    margin: 0px 20px;
+    justify-content: center;
+
+}
+.rec{
+    margin: 0px 20px;
+    justify-content: center;
+}
+.left, .lefts{
+    float: left;
+    width: 30%;
+    margin: 0px -80px;
+    margin-left: 10px; 
+}
+.right{
+    float: left;
+    width: 70%;
+}
+.rec .right{
+    float: left;
+    width: 20%;
+}
+.cleft, .cright, .sousleft, .souright{
+    width: 48%;
+    float: left;
+    font: 1em;
+    margin-left: 12px;
+}
+/* pour eviter qu'un contenu colapse */
+.sec::after, .par::after, .rec::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* page expériences */
+.corp .sec{
+    font-size: 1em;
+}
+
+.corp .sec p::first-letter{
+    font: 50px bold;
+    justify-content: center;
+}
+.orange, .rose, .jaune, .vert, .rouge{
+    border-top: 5px solid #eEEE98;
+    background-color: #fcfcfc;
+    color: black;
+    border-bottom: 0px;
+}
+.leftexp{
+    width: 19%;
+    float: left;
+}
+.rightexp{
+    width: 70%;
+    float: left;
+}
+.leftexp img{
+    width: 60%;
+    height: 60%;
+    max-width: 400px;
+    margin-left: 25%;
+    margin-top: 10%;
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px 6px rgb(181, 181, 181);
+}
+
+.leftexp img:hover {
+    transform: scale(1.2);
+    transition: 1s ease-in-out;
+}
+
+/* page loisirs */
+.vert img{
+    width: 95%;
+    height: 95%;
+    max-width: 400px;
+    margin-left: 15%;
+    margin-top: -5%;
+    border-radius: 10px;
+    box-shadow: 7px 5px 5px 6px rgb(181, 181, 181);
+}
+.vert .rightexp{
+    margin-left: 5%;
+    margin-top: -3%;
+}
+.vert p::first-letter{
+    font-size: 50px;
+    justify-content: center;
+}
+/* contact */
+.rouge p{
+    text-align: center;
+}
+
+
+
+
+@media screen AND (max-width : 720px) {
+    header {
+        height: 40px;
+    }
+    h1 {
+        font-size: 1.5em;
+        padding: 5px 0px 0px 0px;
+    }
+    header li a {
+        font-size: 3Opx;
+        padding: 5px 3px;
+    }
+    nav li a {
+        font-size: 1em;
+        padding: 10px 7px;
+    }
+
+    nav li:hover a {
+        padding: 7px 7px 10px 7px;
+    }
+
+
+}
