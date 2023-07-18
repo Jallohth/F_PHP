@@ -1,4 +1,7 @@
-<?php require 'header.php';?>
+<?php 
+    $title ="Ma page d'acceuil" ;  
+    require 'header.php';
+?>
 
     <main>
        <section class="presentation">
@@ -210,3 +213,4 @@
         </div>
     </section>
    
+<?php require 'footer.php';?>
