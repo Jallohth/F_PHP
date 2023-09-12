@@ -1,4 +1,4 @@
-<?php require 'header.php';?>
+<?php require 'element/header.php';?>
 
     <!-- les sections -->
     <main class="corp">
@@ -40,4 +40,4 @@
         </section>
     </main>
     
-<?php require 'footer.php';?>
+<?php     require 'element/footer.php';?>

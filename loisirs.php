@@ -1,4 +1,6 @@
-<?php require 'header.php';?>
+<?php 
+    require 'element/header.php';
+?>
 
     <main>
         <section class="vert">
@@ -58,4 +60,4 @@
        </section>
     </main>
    
-<?php require 'footer.php';?>
+<?php require 'element/footer.php';?>

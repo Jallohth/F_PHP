@@ -1,6 +1,6 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    font-size:140%;
+    font-size: 1.2em;
     margin: 0px;
     padding: 0px;
 }
@@ -11,6 +11,9 @@ header {
 .logo h1 {
     font: 2.1em Brush Script MT;
     text-align: left;
+}
+.merci{
+    text-align: center;
 }
 .logo {
     display: flex;
@@ -37,36 +40,99 @@ header {
     float: right;
 }
 
+/* début de la  page jeu*/
+.jeu-bouton, .message{     
+    margin-top: 10px;
+}
+/* fin de la page*/
+footer .row{
+    background-color: #212529;
+}
+/* pour la page dashboard */
+#annee a,
+.card-body{
+    color: #080808;
+    font-size: 2em;
+}
+.list-group-item{
+    height: 50px;
+    padding: 0px 20px;
+}
+.list-group{
+    margin-bottom: 30px;
+    margin-top: -10px;
+}
+/*  */
+#dernier{
+    color: #000;
+    background: #fff;
+    height: 2px;
+}
+#dernier p{
+    text-align: center;
+}
+#mois {
+    font-size: 0.5em;
+    margin-left: 50px;
+}
+/* fin */
+.row a ,h4{
+    color: #fff;
+    margin-left: 20px;
+    margin-top: 10px;
+    font: 'Courier New', Courier, monospace;size :140%;
+    font-weight: solid;
+}
+
 nav {
     width: 100%;
     background-color: #424558;
 }
+.col-md-1 {
+    margin-right: -50px;
+}
+.col-md-6{
+    text-align:justify
+}
+/* form creneaux sur la page contact*/
+.form-control{
+    margin: 10px 2px 2px 1px;
+}
+.btn{
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-bottom: 10px;
+}
 
-nav ul {
+h5{
+    font-weight: bold;
+    text-align: center;
+}
+/* contact */
+nav .nav-item ul {
     margin: 0px;
     padding: 0px;
     overflow: hidden;
 }
 
-nav li {
-    list-style-type: none;
-    float: left;
-}
-
-nav a {
+.nav-item a{
+    text-decoration: none;
     display: inline-block;
     text-decoration: none;
     padding: 20px 15px;
     color: #fff;
 }
-
-.menu:hover {
-    border-top: 5px solid #eEEE98;
-    background-color: #ab9e9e;
-    color: black;
+nav li {
+    list-style-type: none;
+    float: left;
 }
 
-nav li:hover a {
+.nav-item:hover {
+    border-top: 5px solid #c2c3c4;
+    background-color: #9e9898;
+}
+
+.nav-item li:hover a {
     padding: 15px 15px 20px 15px;
 }
 
@@ -172,21 +238,17 @@ main .slider {
 }
 
 /*  */
-footer {
-    padding-top: 3Opx;
-    border-top: 2px solid #AAA;
+#dernier{
+    color: #000;
+    background: #fff;
+    height: 2px;
 }
-.foot {
-    display: inline-block;
-    background-color: #424558;
-    width: 100%;
-    height: 250px;
-    display: inline-block;
+#dernier p{
+    text-align: center;
 }
-.my-foother {
-    background-color: #424558;
-    width: 100%;
-    display: inline-block;
+#mois {
+    font-size: 0.5em;
+    text-align: right;
 }
 .partenaires,
 .liens,
@@ -211,33 +273,17 @@ footer {
     border-left: #fff solid;
     color: white;
 }
-footer li {
-    list-style-type: none;
-}
-footer li a{
+
+.row li a{
     text-decoration: none;
     color: #fff;
     font-size: 1em;
+
 }
-footer a:hover{
-    color: black;
+.row a:hover{
+    color: #fff;
 }
-footer .my-foother {
-    display: inline-flex;
-    gap: 70px;
-}
-.foot>p {
-    padding-top: 5px;
-    text-align: center;
-    background-color: #ffffff;
-    height: 30px;
-    color: black;
-}
-.foot h3{
-    font: 'Courier New', Courier, monospace;size :140%; color : black;
-    margin-left: 20px;
-    font-weight: solid;
-}
+
 /*  */
 h1{
     text-align: center;
@@ -304,7 +350,7 @@ section{
         transform:translate3d(0px);
     }
 }
-.presentation, .competences, .recomandations, .parcours{
+.competences, .recomandations, .parcours{
     border-top: 5px solid #eEEE98;
     background-color: #fcfcfc;
     color: black;
