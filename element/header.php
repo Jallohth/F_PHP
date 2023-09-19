@@ -13,12 +13,7 @@ require_once dirname(__DIR__).DIRECTORY_SEPARATOR. 'fonctions' .DIRECTORY_SEPARA
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Présentation de THD">
     <title>
-        <?php if (isset($title)):{ ?>
-            <?php echo $title;?>
-        <?php }else :?> 
-             Mon site web
-        <?php endif?>
-
+        <?= isset($title) ? $title:"Mon site web" ?>
     </title>
     <!-- les feuilles de styles -->
     <link rel="stylesheet" href="css/bootstrap.min.css">

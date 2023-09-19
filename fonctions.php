@@ -20,7 +20,8 @@ function nav_menu(string $linkClass = ''):string {
         nav_item('/contact.php', 'Contact',$linkClass).
         nav_item('/Jeu.php', 'Jeus',$linkClass).
         nav_item('/loisirs.php', 'Recreations',$linkClass).
-        nav_item('/dashboard.php', 'Dashboard',$linkClass);
+        nav_item('/dashboard.php', 'Dashboard',$linkClass).
+        nav_item('/livreOr.php', 'Livre Or', $linkClass);
         nav_item('/login.php', 'Login',$linkClass);
 }
 

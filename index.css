@@ -44,10 +44,12 @@ header {
 .jeu-bouton, .message{     
     margin-top: 10px;
 }
-/* fin de la page*/
+
+/* fin de la page */
 footer .row{
     background-color: #212529;
 }
+
 /* pour la page dashboard */
 #annee a,
 .card-body{
@@ -99,9 +101,7 @@ nav {
     margin: 10px 2px 2px 1px;
 }
 .btn{
-    margin-top: 10px;
-    margin-left: 30%;
-    margin-bottom: 10px;
+    margin-left: 45%;
 }
 
 h5{

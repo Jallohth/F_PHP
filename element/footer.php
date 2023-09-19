@@ -46,7 +46,6 @@
         </div>
          <!-- Inclusion des fichiers -->
         <script src="javascript/bootstrap.bundle.min.js"></script>
-        <script src="javascript/bootstrap.min.js"></script>
         <script src="javascript/jquery-3.6.0.js"></script>
         <script src="javascript/jquery-migrate-3.3.2.js"></script>
         <script src="js/scripts.js"></script>
