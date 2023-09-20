@@ -1,5 +1,6 @@
 
-
+git init
+git commit -a -m "message"
 
 
 
