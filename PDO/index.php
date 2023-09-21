@@ -57,6 +57,7 @@ try {
             <div class="alert alert-danger"><?= $error ?></div>
         <?php else : ?>
             <ul>
+                <h1 class="fw-bold my-3">Liste des articles, auteurs et date de publication</h1>
                 <?php foreach (array_reverse($posts) as $post) : ?>
 
                     <a href="/PDO/edit.php?id=<?= $post->id ?>">Click here to modify...</a>
