@@ -27,7 +27,7 @@ try {
     $error =  "Erreur de connexion " . $e->getMessage();
 }
 
-require_once "../element/header.php"
+require_once "../element/header.php";
 ?>
 
 <!DOCTYPE html>

@@ -1,6 +1,10 @@
 <?php
-require_once('class/Message.php');
-require_once('class/GuestBook.php');
+
+use App\GuestBook;
+use App\Message;
+
+require_once('class/LiverOR/Message.php');
+require_once('class/LiverOR/GuestBook.php');
 $errors = null;
 $success = false;
 

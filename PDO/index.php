@@ -1,16 +1,16 @@
 <?php
-require_once "Post.php";
-require_once("../element/header.php");
+
+require_once 'Post.php';
 
 $conn = new PDO('mysql:host=localhost;dbname=posts', 'root', '', [
     PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
-    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC
+    PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
 ]);
 
 $error = null;
 try {
     if (isset($_POST['username'], $_POST['message'])) {
-        $query = $conn->prepare("INSERT INTO post(username, message, createDate) VALUEs(:username, :message, :createDate)");
+        $query²²                                                                                                                                                                                                                                         = $conn->prepare("INSERT INTO post(username, message, createDate) VALUEs(:username, :message, :createDate)");
         $query->execute([
             'username' => $_POST['username'],
             'message' => $_POST['message'],
@@ -18,11 +18,15 @@ try {
         ]);
     }
     $query = $conn->query("SELECT * FROM post");
-    $posts = $query->fetchAll(PDO::FETCH_CLASS, "Post");
+    $posts = $query->fetchAll(PDO::FETCH_CLASS, 'Apps\Post');
+    // Post::class renvoi le nom de la classe sous forme de chaine de caractère
 } catch (PDOException $e) {
     $error = 'Erreur de connexion' . $e->getMessage();
 }
+
+require_once "../element/header.php";
 ?>
+
 <!DOCTYPE html>
 <html lang="fr">
 
@@ -70,4 +74,3 @@ try {
             </ul>
         <?php endif ?>
     </div>
-    

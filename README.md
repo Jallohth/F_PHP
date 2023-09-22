@@ -13,4 +13,6 @@ après nous n'avons qu'à utiliser dump() ou lier de var_dump() et puis juste en
 
 telecharger altorouteur dans packagist.
 
+php namespace a telecharger ctrl + alt + i
+
 9hgqbf3jRzwM

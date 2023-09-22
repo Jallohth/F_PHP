@@ -1,4 +1,5 @@
 <?php
+namespace Apps;
 class Post{
     public $id;
     public $username;
@@ -8,7 +9,7 @@ class Post{
     public function __construct()
     {
         if(is_int($this->createDate) || is_string($this->createDate)){
-        $this->createDate = new DateTime(is_string($this->createDate) ? $this->createDate : "@".$this->createDate);
+        $this->createDate = new \DateTime(is_string($this->createDate) ? $this->createDate : "@".$this->createDate);
     }
     }
     // public function getExcerpt(){
